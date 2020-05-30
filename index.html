@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img class="image" src="./images/brand.png" alt="logo-images" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto"></ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >HOME <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  SHOP
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="kurti.html"
+                    >Kurti Collection</a
+                  >
+                  <a class="dropdown-item" href="shalwar.html"
+                    >Shalwar Kameez</a
+                  >
+                  <a class="dropdown-item" href="shirt.html">Shirts</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-user-circle" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </nav>
+
+      <!-- slider   -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/Banner-New-Arival.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First Product</h5>
+              <p>A product description is the marketing</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/Banner-New-Arival2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second Product</h5>
+              <p>However, entrepreneurs and marketers .</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/BANNERSnew-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third Product</h5>
+              <p>However, entrepreneurs and marketers .</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--  -->
+      <div class="mainCard">
+        <div class="card1">
+          <div>
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+          </div>
+          <div class="text">
+            <h3>Collection Avaible</h3>
+          </div>
+        </div>
+
+        <div class="card2">
+          <div>
+            <i class="fa fa-users" aria-hidden="true"></i>
+          </div>
+          <div class="text">
+            <h3>Online Shopping</h3>
+          </div>
+        </div>
+
+        <div class="card3">
+          <div>
+            <i class="fa fa-female" aria-hidden="true"></i>
+          </div>
+          <div>
+            <h3 class="text">New Collection</h3>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="arival">
+        <div class="heading">
+          <h1>Eid Collection</h1>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  src="./images/off.jpeg"
+                  height="330px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text2">New Collection</h5>
+                  <p class="card-text text2">Rs: 1050</p>
+                  <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  src="./images/off1.jpeg"
+                  height="330px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text2">New Collection</h5>
+                  <p class="card-text text2">Rs: 2500</p>
+                  <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  src="./images/off2.jpeg"
+                  height="330px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text2">New Collection</h5>
+                  <p class="card-text text2">Rs: 1400</p>
+                  <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  src="./images/off3.jpeg"
+                  height="330px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text2">New Collection</h5>
+                  <p class="card-text text2">Rs: 1850</p>
+                  <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="arival">
+        <div class="heading">
+          <h1>New Collection</h1>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  src="./images/f1.jpeg"
+                  height="330px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text2">New Collection</h5>
+                  <p class="card-text text2">Rs: 1500</p>
+                  <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  src="./images/f2.jpeg"
+                  height="330px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text2">New Collection</h5>
+                  <p class="card-text text2">Rs: 1700</p>
+                  <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  src="./images/f3.jpeg"
+                  height="330px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text2">New Collection</h5>
+                  <p class="card-text text2">Rs: 2400</p>
+                  <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  src="./images/f4.jpeg"
+                  height="330px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text2">New Collection</h5>
+                  <p class="card-text text2">Rs: 1900</p>
+                  <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!-- Footer -->
+      <footer class="page-footer font-small unique-color-dark">
+        <div class="x1">
+          <div class="container">
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+              <!-- Grid column -->
+              <div
+                class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0"
+              >
+                <h6 class="mb-0">Get connected with Festivals!</h6>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+                <!-- Facebook -->
+                <a>
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <!-- Twitter -->
+                <a>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <!-- Google +-->
+                <a>
+                  <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+                <!--Linkedin -->
+                <a>
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <!--Instagram-->
+                <a>
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+          </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5 x2">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold mb-0">Collections</h6>
+              <hr
+                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto hr"
+                style="width: 60px;"
+              />
+              <p class="mb-0">
+                The duties of a Collections Specialist includes collection.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold mb-0">Products</h6>
+              <hr
+                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px;"
+              />
+              <p>
+                <a href="#!">Kurti Collection</a>
+              </p>
+              <p>
+                <a href="#!">Eid Collection</a>
+              </p>
+              <p>
+                <a href="#!">Gift Item</a>
+              </p>
+              <p>
+                <a href="#!">Tarzz Collection</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold mb-0">Useful links</h6>
+              <hr
+                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px;"
+              />
+              <p class="x">
+                <a href="index.html">Home</a>
+              </p>
+              <p>
+                <a href="kurti.html">Shop</a>
+                <a href=""></a>
+              </p>
+              <p>
+                <a href="about.html">About Us</a>
+              </p>
+              <p>
+                <a href="contact.html">Contact Us</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold mb-0">Contact</h6>
+              <hr
+                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px;"
+              />
+              <p class="x">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                Karachi Saddar
+              </p>
+              <p class="x">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                info@example.com
+              </p>
+              <p class="x">
+                <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                +92 123456789
+              </p>
+              <p class="x">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                +92 123456789
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 xc x">
+          © 2020 Copyright:
+          <a href="#"> Zaid Collection.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+      <!-- <div class="footer">
+        <div>
+          <h4>Copyright <i class="fa fa-copyright" aria-hidden="true"> Zaid Collection</i>
+          </h4>
+        </div>
+      </div> -->
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
